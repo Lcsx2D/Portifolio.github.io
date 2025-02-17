@@ -1,12 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Bem-vindo ao meu portfólio!</h1>
-    <p>Este é um site hospedado no GitHub Pages.</p>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">MeuPortfólio</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Principal -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Olá, eu sou <span>Seu Nome</span></h1>
+            <p>Desenvolvedor Web | Criador de Experiências Digitais</p>
+            <a href="#portfolio" class="btn">Veja meu trabalho</a>
+        </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor apaixonado por tecnologia e design.</p>
+    </section>
+
+    <!-- Portfólio -->
+    <section id="portfolio">
+        <h2>Meus Trabalhos</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="assets/img/projeto1.jpg" alt="Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição breve do projeto.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="assets/img/projeto2.jpg" alt="Projeto 2">
+                <h3>Projeto 2</h3>
+                <p>Descrição breve do projeto.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <input type="text" placeholder="Seu Nome">
+            <input type="email" placeholder="Seu Email">
+            <textarea placeholder="Sua Mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Meu Portfólio - Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>
